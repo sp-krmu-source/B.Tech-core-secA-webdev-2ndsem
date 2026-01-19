@@ -8,5 +8,4 @@
          console.log(ak,"fail")
      }
  });
-//  console.log(doubled);
 
