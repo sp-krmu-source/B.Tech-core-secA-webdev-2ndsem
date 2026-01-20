@@ -10,14 +10,14 @@
 // Asynchronous function: we can move to another task before the previous one finishes its execution.
 // callback function: we can pass one function inside another function as an argument. 
 // callback=test
-// function sample(callback){
-//     console.log("sample");
-//     callback()
-// }
-// function test(){
-//     console.log("test")
-// }
-// sample(test)
+function sample(callback){
+    console.log("sample");
+    callback()
+}
+function test(){
+    console.log("test")
+}
+sample(test)
 
 
 

@@ -22,13 +22,14 @@
 
 function palindrome() {
     let arr = [1, 2, 3, 2, 1]
-    let original = []
+    let original = [...arr]
+    console.log(original)
     let reverse = []
 
     //push given array elements into original array
-    for (let i = 0; i < arr.length; i++) {
-        original.push(arr[i])
-    }
+    // for (let i = 0; i < arr.length; i++) {
+    //     original.push(arr[i])
+    // }
     //reverse the given array
     while (arr.length > 0) {
         reverse.push(arr.pop())
