@@ -80,11 +80,12 @@ sample()
 
 (function() {
     console.log("This is an IIFE.");
-})
-console.log("ddemo")
-();
+})();
+
+setTimeout(()=>{
 
 
+}
 
 
 
