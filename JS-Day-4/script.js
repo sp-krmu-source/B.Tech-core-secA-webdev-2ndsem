@@ -82,10 +82,7 @@ sample()
     console.log("This is an IIFE.");
 })();
 
-setTimeout(()=>{
 
-
-}
 
 
 
