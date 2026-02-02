@@ -16,7 +16,7 @@ for(let i=0;i<para.length;i++){
 
 // queryselector
 
-const qs =document.querySelectorAll("#content p")
+const qs =document.querySelector("#content p")
 console.log(qs);
 qs.textContent="lorem djkabn. j d. eqjo. e j";
 
